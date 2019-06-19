@@ -1,6 +1,6 @@
 {
 	"id": "nodebb-plugin-allow-picture-changes",
-	"url": "Absolute URL to your plugin or a Github repository",
+	"url": "https://github.com/g-rauhoeft/nodebb-plugin-allow-picture-changes",
 	"library": "./hooks.js",
 	"hooks": [
 		{ "hook": "filter:user.updateProfile", "method": "allowPictureChanges" }
